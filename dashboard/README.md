@@ -21,4 +21,4 @@ and deviations from the ideal clinical pathway.
 Power BI Desktop, SQL and DAX
 
 ## Status
-Day 1 - Initial setup
+Day 1 - Initial setup 

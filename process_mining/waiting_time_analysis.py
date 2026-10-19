@@ -34,4 +34,7 @@ print("\nAverage time between consecutive activities:")
 print(df.groupby("activity_name")["waiting_minutes"].mean())
 # Save the analysis results
 df.to_csv("process_mining/waiting_time_results.csv", index=False)
+print("\nWaiting-time summary:")
+print(f"Longest waiting interval: {df['waiting_minutes'].max()} minutes")
+print(f"Shortest waiting interval: {df['waiting_minutes'].min()} minutes")
 print("\nWaiting-time results saved successfully!")
